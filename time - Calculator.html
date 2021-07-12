@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+var name;
+var date;
+var hour;
+
+date= new date();
+hour= date.getHours();
+
+name=window.prompt("Enter your name:"," ");
+if(hour<12)
+document.writeln("<p>good morning "+name+"</p>");
+else if(hour<15)
+document.witeln("<p>good afternoon "+name+"</p>");
+else
+document.writeln("<p>good evening "+name+" </p>");
+</script>
+</head>
+<body>
+</body>
+</html>
