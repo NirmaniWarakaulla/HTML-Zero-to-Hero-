@@ -1,0 +1,34 @@
+<html>
+<head>
+<tittle>Age calculate</tittle>
+</head>
+<body>
+<script>
+var now=new.Date();
+var year=now.getFullYear();
+var month=now.getmonth();
+var day=now.getDate();
+
+var day1=parseInt(day);
+var month1=parseInt(month);
+var year=parseInt(year);
+
+var myday=window.prompt("Enter the day of your birth:", " ");
+var mymonth=window.prompt("Enter the month of your birth:", " ");
+var myyear=window.prompt("Enter the year of your birth:", " ");
+
+var myday1=parseInt(myday1);
+var mymonth1=parseInt(mymonth1);
+var myyear1=parseInt(myyear1);
+
+if(myday1<=31 && mymonth1<=12 && myyear1<=year1)
+{if(day1<myday1){var ageday=day1+31-myday1;
+month1=month-1;}
+else{var ageday=day1-myday1;}
+if(month1<mymonth1)
+{var agemonth=month1+12-mymonth1;
+year1=year1-1;}
+
+</script>
+</body>
+</html>
