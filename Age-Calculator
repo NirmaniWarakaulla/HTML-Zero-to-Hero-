@@ -1,0 +1,48 @@
+<html>
+<head>
+<tittle>calculate of age</tittle>
+</head>
+<body>
+<script>
+var now=new.Date();
+var year=now.getFullYear();
+var month=now.getMonth();
+var day=now.getDate();
+
+var year1=window.prompt("Enter your birth of year:"," ");
+var month1=window.prompt("Enter your birth of month:"," ");
+var day1=window.prompt("Enter your birth day:"," ");
+
+var myyear=parseInt(year1);
+var mymonth=parseInt(month1);
+var myday=parseInt(day1);
+
+var xyear=parseInt(year);
+var xmonth=parseInt(month);
+var xday=parseInt(day);
+
+var ageday=parseInt(ageday);
+var agemonth=parseInt(agemonth);
+var ageyear=parseInt(ageyear);
+
+if(myyear<=xyear && mymonth<=12 && myday<=31)
+{
+if(xday<myday)
+{ageday=xday+31-myday;
+xmonth=xmonth-1;
+ageyear=xyear-myyear;}
+else{ageday=xady-myday;
+ageyear=xyear-myyear;}
+if(xmonth<mymonth)
+{agemonth=xmonth+365-mymonth;
+xyear=xyear-1;
+ageyear=xyear-myyear;}
+else{agemonth=xmonth-mymonth;
+ageyear=xyear-myyear;}
+document.writeln("<p>Your age is "+ageyear+","+agemonth+","+ageday+"</p>");
+}
+else
+{windows.alert("your data is invalid");}
+</script>
+</body>
+</html>
