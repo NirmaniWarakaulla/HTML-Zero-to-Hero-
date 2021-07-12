@@ -1,0 +1,48 @@
+<html>
+<head>
+<tittle>Answer of ax<sup>2</sup>+bx+c=0</tittle>
+<script>
+
+stra;
+strb;
+strc;
+var x1;
+var x2;
+numdis;
+numx1;
+numx2;
+
+a=window.prompt("Enter the value for \'a\':"," ");
+b=window.prompt("Enter the value for \'b\':"," ");
+c=window.prompt("Enter the value for \'c\':"," ");
+
+var a=parseFloat(a);
+var b=parseFloat(b);
+var c=parseFloat(c);
+
+var d=Math.pow(b,2)-4*a*c;
+
+numdis=parseInt(d);
+
+if(numdis>=0)
+{varx1=-b+(numdis)/2*a;
+ varx2=-b-(numdis)/2*a;
+ 
+ numx1=parseInt(x1);
+ numx2=parseInt(x2);
+ 
+ document.writeln("<p>answer for x1:"+numx1+",</p>");
+ document.writeln("<p>answer for x2:"+numx2+",</p>");
+ }
+else
+{
+document.writeln("<p>there is no real solution</p>");
+}
+</script>
+</head>
+<body>
+<p>do you want this again,reload the page</p>
+</body>
+</html>
+
+

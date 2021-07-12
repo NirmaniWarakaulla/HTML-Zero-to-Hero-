@@ -1,0 +1,25 @@
+<html>
+<head>
+<tittle>operators</tittle>
+<script>
+var name;
+date;
+hour;
+
+date=new Date();
+hour=date.getHours();
+
+name=window.prompt("Enter your name:"," ");
+
+if(hour<12)
+document.writwln("<h1>Good morning "+name+",have a nice day</h1>");
+else if(hour>12)
+document.writeln("<h1>Good afternoon "+name+",have a nice day</h1>");
+else
+document.writeln("<h1>have a nice day "+name+", </h1>");
+
+</script>
+</head>
+<body>
+</body>
+</html>
