@@ -1,0 +1,24 @@
+<html>
+<head>
+<tittle>window alert</tittle>
+<script>
+window.alert("nirmani");
+now= new Date();
+hour=now.getHours();
+minute=now.getMinutes();
+year=now.getFullYear();
+month=now.getMonth();
+day=now.getDate();
+time=now.getTime();
+
+document.writeln(day);
+document.writeln(hour);
+document.writeln(minute);
+document.writeln(year);
+document.writeln(month);
+document.writeln("<p>jhjhjkrh "+time+", gtgnhnh</p>");
+</script>
+</head>
+<body>
+</body>
+</html>
