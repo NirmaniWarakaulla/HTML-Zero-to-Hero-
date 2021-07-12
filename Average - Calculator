@@ -1,0 +1,29 @@
+<html>
+<head>
+<tittle>counter controled</tittle>
+</head>
+<body>
+<h1>finding the class average</h1>
+<script>
+var num;
+var avrage;
+var total;
+var number;
+var gradecounter;
+
+total=0;
+gradecounter=0;
+
+while(gradecounter<=10)
+{
+num=window.prompt("Enter a number"," ");
+
+grade=parseInt(num);
+total=total+grade;
+gradecounter=gradecounter+1;}
+average=(total/gradecounter);
+
+document.writeln("<p>the class average is"+average+",</p>");
+</script>
+</body>
+</html>
